@@ -1,0 +1,13 @@
+{
+  "name": "chat-app-miniproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix ca-backend && npm install --prefix ca-frontend && npm run build --prefix ca-frontend",
+    "start": "npm run start --prefix ca-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
